@@ -9,6 +9,10 @@ const restaurantSchema = new mongoose.Schema({
         type: 'String',
         required: true
     },
+    image: {
+        type: 'String',
+        required: true
+    },
     cost: {
         type: 'String',
         required: true
