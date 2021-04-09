@@ -20,6 +20,7 @@ router.post('/add', async (req, res) => {
 
     const restaurant = new Restaurant({
         name: req.body.name,
+        image: req.body.image,
         rating: req.body.rating,
         cost: req.body.cost,
         spec: req.body.spec,
