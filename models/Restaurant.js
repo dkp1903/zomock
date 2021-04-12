@@ -21,6 +21,14 @@ const restaurantSchema = new mongoose.Schema({
         type: 'String',
         required: true
     },
+    numOfReviews: {
+        type: 'String',
+        required: true
+    },
+    discount: {
+        type: 'String',
+        required: true
+    },
     area: {
         type: 'String',
         required: true

@@ -24,7 +24,9 @@ router.post('/add', async (req, res) => {
         rating: req.body.rating,
         cost: req.body.cost,
         spec: req.body.spec,
-        area: req.body.area
+        area: req.body.area,
+        numOfReviews: req.body.numOfReviews,
+        discount: req.body.discount
     })
 
     try {
