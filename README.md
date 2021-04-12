@@ -6,59 +6,80 @@ GET https://zomock.herokuapp.com/restaurants
 [
     {
         "_id": "60708f0d10679bae9f718f8f",
-        "name": "R1",
+        "name": "Sridher Eateries",
         "rating": "3",
-        "image": "https://picsum.photos/200/300",
+        "image": "https://i.ibb.co/ZTHr2cM/res-sample.jpg",
         "cost": "150",
+        "numOfReviews": "3380",
+        "discount": "80%",
+        "spec": "Curd and rice",
+        "area": "Indiranagar"
+    },
+    {
+        "_id": "6073cb4d8bab295faebb5717",
+        "name": "Nabhan Restaurant",
+        "rating": "3",
+        "image": "https://i.ibb.co/ZTHr2cM/res-sample.jpg",
+        "cost": "150",
+        "numOfReviews": "3380",
+        "discount": "80%",
         "spec": "North Indian",
         "area": "Koramangala"
     },
     {
-        "_id": "60709409e9f9db6e4461b739",
-        "name": "DEF",
-        "rating": "4",
-        "image": "https://picsum.photos/200/300",
-        "cost": "150",
-        "spec": "North Indian",
-        "area": "Koramangala",
-        "__v": 0
-    },
-    {
-        "_id": "607097ae10679bae9f718f90",
-        "name": "Alpha Res",
-        "rating": "2",
-        "image": "https://picsum.photos/200/300",
-        "cost": "120",
-        "spec": "South Indian",
-        "area": "Airport Road"
-    },
-    {
-        "_id": "607097e110679bae9f718f91",
-        "name": "Beta Res",
+        "_id": "6073ccae8bab295faebb5718",
+        "name": "Kiran Plaza",
         "rating": "5",
-        "image": "https://picsum.photos/200/300",
-        "cost": "130",
-        "spec": "South Indian, Chinese",
-        "area": "Mangalore"
+        "image": "https://i.ibb.co/ZTHr2cM/res-sample.jpg",
+        "cost": "350",
+        "numOfReviews": "4380",
+        "discount": "40%",
+        "spec": "Chinese",
+        "area": "Koramangala"
     },
     {
-        "_id": "6070b192666c800022b63e1a",
-        "name": "Res-9",
-        "rating": "4",
-        "image": "https://picsum.photos/200/300",
-        "cost": "150",
-        "spec": "North Indian",
-        "area": "Koramangala",
-        "__v": 0
+        "_id": "6073cd2a8bab295faebb5719",
+        "name": "ABC Restaurants Limited",
+        "rating": "2",
+        "image": "https://i.ibb.co/ZTHr2cM/res-sample.jpg",
+        "cost": "450",
+        "numOfReviews": "5678",
+        "discount": "20%",
+        "spec": "Thai",
+        "area": "Koramangala"
     },
     {
-        "_id": "6070b39abe93fd0022c26de3",
+        "_id": "6073cda38bab295faebb571a",
+        "name": "Anas Foods",
+        "rating": "5",
+        "image": "https://i.ibb.co/ZTHr2cM/res-sample.jpg",
+        "cost": "390",
+        "numOfReviews": "5678",
+        "discount": "20%",
+        "spec": "Thai",
+        "area": "Koramangala"
+    },
+    {
+        "_id": "6073cdcf8bab295faebb571b",
+        "name": "Mridula Fast Food and Bar",
+        "rating": "5",
+        "image": "https://i.ibb.co/ZTHr2cM/res-sample.jpg",
+        "cost": "290",
+        "numOfReviews": "5678",
+        "discount": "20%",
+        "spec": "Thai",
+        "area": "Koramangala"
+    },
+    {
+        "_id": "6073cfcf3c39394bf8de0073",
         "name": "Res-10",
-        "image": "https://picsum.photos/200/300",
+        "image": "https://drive.google.com",
         "rating": "4",
         "cost": "150",
         "spec": "North Indian",
         "area": "Koramangala",
+        "numOfReviews": "3340",
+        "discount": "30%",
         "__v": 0
     }
 ]
@@ -70,13 +91,16 @@ Body -
 
 ```
  {
-        "name": "Res-9",
-        "image": "https://picsum.photos/200/300",
-        "rating": "4",
-        "cost": "150",
-        "spec": "North Indian",
+        "_id": "6073ccae8bab295faebb5718",
+        "name": "Kiran Plaza",
+        "rating": "5",
+        "image": "https://i.ibb.co/ZTHr2cM/res-sample.jpg",
+        "cost": "350",
+        "numOfReviews": "4380",
+        "discount": "40%",
+        "spec": "Chinese",
         "area": "Koramangala"
- }
+  }
 ```
 
 Creator - [Dushyant Pathak](mailto:dushyant.pathak@crio-users.in)
